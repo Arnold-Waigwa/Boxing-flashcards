@@ -72,6 +72,13 @@ const Hero = () => {
     ); // Increment index
   };
 
+  const handlePreviousCard = () => {
+    setIsFlipped(false);
+    setCurrentCardIndex(
+      (prevIndex) => (prevIndex - 1) % triviaQuestions.length
+    );
+  };
+
   const handleFlip = () => {
     setIsFlipped(!isFlipped);
   };
@@ -94,6 +101,9 @@ const Hero = () => {
       </div>
       <div>
         <button onClick={handleNextCard} className="nextCard">
+          Previous
+        </button>
+        <button onClick={handlePreviousCard} className="nextCard">
           Next
         </button>
       </div>

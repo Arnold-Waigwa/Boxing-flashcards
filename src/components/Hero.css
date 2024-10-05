@@ -28,7 +28,7 @@ p {
   transform: perspective(1000px) rotateY(var(--rotate-Y, 0));
 }
 
-.card :hover {
+.card:hover {
   box-shadow: 0 0 50px 20px #00000080;
 }
 
@@ -61,6 +61,14 @@ button {
   margin-left: 5px;
 }
 
+button:hover {
+  border-color: blue;
+}
+
 .card.flipped {
   transform: rotateX(180deg);
+}
+
+.correct {
+  border: 3px solid rgb(17, 0, 255);
 }

@@ -30,10 +30,10 @@ The following **additional** features are implemented: Added previous button tha
 
 Here's a walkthrough of implemented required features:
 
-<img src='[http://i.imgur.com/link/to/your/gif/file.gif](https://github.com/Arnold-Waigwa/Boxing-flashcards/blob/main/boxing.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='public/assets/boxing.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with Licecap  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
